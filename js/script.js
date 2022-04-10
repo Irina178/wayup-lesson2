@@ -31,7 +31,7 @@ let array = [
    'Савельич'
 ]
 
- 
+
 array[0] = 'В ту же ночь',
    array[1] = 'приехал,',
    array[2] = 'я в Симбирск,',
@@ -46,6 +46,23 @@ array[0] = 'В ту же ночь',
    array[11] = 'с утра',
    array[12] = 'отправился по лавкам',
    console.log(array)
+
+
+let result = array[0] + 'В ту же ночь'
+   + array[1] + ' приехал'
+   + array[2] + 'я в Симбирск,'
+   + array[3] + 'где должен был'
+   + array[4] + 'пробыть сутки'
+   + array[5] + 'для закупки'
+   + array[6] + 'нужных вещей'
+   + array[7] + 'что и было поручено Савельичу.'
+   + array[8] + 'Я остановился'
+   + array[9] + 'в трактире.'
+   + array[10] + 'Савельич'
+   + array[11] + 'с утра'
+   + array[12] + 'отправился по лавкам'
+console.log(result)
+
 // Задание 4
 
 const fullName = function (firstName = 'Irina', lastName = 'Ivanova') {
